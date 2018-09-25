@@ -1,31 +1,17 @@
-
 <!DOCTYPE html>
-
 <html>
-<head>
-
-   <script TYPE="text/javscript">
-     function login() {if (document.getElementById('password').value="David"){document.write("Benvenuto")}}
-         </script>
-</head>
-<style>
-
-
-
-</style>
-<style>
-   body  { 
-  color: green;
-   }
-  </style>
-<body>   <hl> accedi </hl> <br>
-    <input id="password" type="password" size= "30" maxlenght="8" /> <br>  
-   <input type = "button" value="Accedi" onClick = "login()"/>
-          
-  <p> Che bel paesaggio!!!  </p>
-  <img src= Cabo.JPG />
-  </body>
-   
-   </html>
+ <script>
+var password = "0000";
+var a = prompt("scrivi la password per accedere al sito!");
+if (a == password) {
+    alert("password esatta! benvenuto/a nel sito!");
+} else {
+  while(a!= password) { 
+   if (a != password) {
+    alert("password sbagliata. riprova");
+    var a = prompt("scrivi la password per accedere al sito!");
+}
+}
+}
 
 
