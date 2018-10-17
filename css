@@ -3,23 +3,27 @@
 <head>
 <style>
 body {
-    background-color: green;
+    background-color: red;
 }
 
 a1 {
     color: blue;
     text-align: center;
+    font-size: 50px;
 }
 
 b {
     font-family: verdana;
-    font-size: 15px;
+    font-size: 30px;
 }
 </style>
 </head>
 <body>
 
 <a1>Scegli il volo più adatto a te...</a1>
+<br/>
+<br/>
+<br/>
 <br/>
 <b>Il mercoledì puoi trovare le offerte migliori</b>
 
