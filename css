@@ -16,16 +16,21 @@ b {
     font-family: verdana;
     font-size: 30px;
 }
+   #Titolo {
+            background-color: green;
+        }
+   #le-offerte-del-giorno {
+            background-color: purple;
+        }
 </style>
 </head>
 <body>
 
-<a1>Scegli il volo più adatto a te...</a1>
+<a1 id = "Titolo">Scegli il volo più adatto a te...</a1>
 <br/>
 <br/>
 <br/>
 <br/>
-<b>Il mercoledì puoi trovare le offerte migliori</b>
-
+<b id = "le-offerte-del-giorno">Il mercoledì puoi trovare le offerte migliori</b>
 </body>
 </html>
