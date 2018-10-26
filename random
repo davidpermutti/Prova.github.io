@@ -14,7 +14,10 @@ function myFunction() {
     document.getElementById("estrai").innerHTML = x;
 }
 </script>
-
+<script type=”text/javascript”> 
+if var x == 1 { 
+   
+  }
 </body>
 </html>
 
