@@ -7,3 +7,11 @@
 <br>
  <buttontype=”estrai”>
  <button onclick= "myFunction()">
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = Math.random();
+}
+</script>
+
+</body>
+</html>
