@@ -3,3 +3,7 @@
 <body>
 
 <p> Clicca il bottone per estrarre un numero <p/>
+<br>
+<br>
+ <buttontype=”estrai”>
+ <button onclick= "myFunction()">
